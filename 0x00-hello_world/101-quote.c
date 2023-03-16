@@ -7,6 +7,6 @@
 int main(void)
 {
 fprintf(stdout, "and that piece of art is useful\"");
-fprintf(stout, " - Dora Korpar, 2015-10-19\n");
+fprintf(stdout, " - Dora Korpar, 2015-10-19\n");
 return (1);
 }
