@@ -1,4 +1,11 @@
 #include<stdio.h>
-void main(void){
+/**
+ * main - use puts
+ * Description: print a string to the standard output
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
 puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
