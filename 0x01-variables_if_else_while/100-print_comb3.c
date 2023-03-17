@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * main - prints all possible combinations of three-digit numbers
+ * main - prints all possible combinations of two-digit numbers
  * Use only putchar function
  * Return: Always 0 (Success)
  */

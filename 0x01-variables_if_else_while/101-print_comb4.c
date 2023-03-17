@@ -1,9 +1,8 @@
 #include <stdlib.h>
-#include <time.h>
 #include<stdio.h>
 
 /**
- * main - prints all possible combinations of two-digit numbers
+ * main - prints all possible combinations of three-digit numbers
  * Use only putchar function
  * Return: Always 0 (Success)
  */
