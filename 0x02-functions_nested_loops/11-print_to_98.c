@@ -8,21 +8,25 @@
 
 void print_to_98(int n)
 {
-	int i;
+	int i, j;
 
-	for (i = n; i <= 98; i++)
+	if (n <= 98)
 	{
-		if (i < 10)
+		for (i = n; i <= 98; i++)
 		{
-			_putchar(i + '0');
-		} else
-		{
-			_putchar(i / 10 + '0');
-			_putchar(i % 10 + '0');
+			if (i != 98)
+				printf("%d, ", i);
+			else if (i == 98)
+				printf("%d\n", i);
 		}
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
+	} else if (n >= 98)
+	{
+		for (j = n; j >= 98; j--)
+		{
+			if (j != 98)
+				printf("%d, ", j);
+			else if (j == 98)
+				printf("%d\n", j);
+		}
 	}
-	_putchar('\n');
 }
