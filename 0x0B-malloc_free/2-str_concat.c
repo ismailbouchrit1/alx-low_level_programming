@@ -12,10 +12,10 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *string;
-	unsigned int len, i, j;
+	unsigned int i, j;
 
-	len = strlen(s1) + strlen(s2) + 1;
-	string = (char *) malloc(len * sizeof(char));
+
+	string = (char *) malloc((strlen(s1) + strlen(s2) + 1) * sizeof(char));
 	if (string == NULL)
 		return (NULL);
 	i = 0;
