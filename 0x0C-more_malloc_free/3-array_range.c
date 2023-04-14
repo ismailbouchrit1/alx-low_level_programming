@@ -23,7 +23,7 @@ int *array_range(int min, int max)
 	i = 0;
 	c = min;
 
-	while (c < max)
+	while (c <= max)
 	{
 		arr[i] = c;
 		i++;
