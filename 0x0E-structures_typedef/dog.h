@@ -1,5 +1,7 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef DOG_H
+#define DOG_H
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 /**
  * struct dog - a dog's basic info
