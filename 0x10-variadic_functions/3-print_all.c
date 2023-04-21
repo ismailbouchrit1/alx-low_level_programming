@@ -24,16 +24,16 @@ void print_all(const char * const format, ...)
 					break;
 				case 'i':
 					printf("%s%d", sep, va_arg(ap, int));
-                                        break;
+					break;
 				case 'f':
-                                        printf("%s%f", sep, va_arg(ap, double));
-                                        break;
+					printf("%s%f", sep, va_arg(ap, double));
+					break;
 				case 's':
-                                        str = va_arg(ap, char *);
+					str = va_arg(ap, char *);
 					if (!str)
 						str = "(nil)";
-					printf("%s%s",sep,  str);
-                                        break;
+					printf("%s%s", sep, str);
+					break;
 				default:
 					i++;
 					continue;
