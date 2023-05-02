@@ -4,7 +4,7 @@
  * free_listint2 - Entry point
  *
  * @head: pointer to pointer listint_t
- * 
+ *
  */
 
 void free_listint2(listint_t **head)
