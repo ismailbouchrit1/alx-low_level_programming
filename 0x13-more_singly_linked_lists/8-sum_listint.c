@@ -1,25 +1,22 @@
-i#include "lists.h"
+#include "lists.h"
 
 /**
- * *get_nodeint_at_index - Entry point
+ * sum_listint - Entry point
  * @head: pointer to listint_t
- * @index: index of node
- * Return: listint_t node
+ * Return: sum of all nodes
  */
 
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+
+int sum_listint(listint_t *head)
 {
-	unsigned int i = 0;
+	int result = 0;
 	listint_t *node = head;
 
-	while (node && i < index)
+	while (node)
 	{
+		result += node->n;
 		node = node->next;
-		i++;
 	}
 
-	if (node)
-		return (node);
-	else
-		return (NULL);
+	return (result);
 }
